@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import Forecast from './Components/Forecast/Forecast';
+import SideNav from './Components/Navbar/Navbar';
 
-function App() {
+function App(props, state) {
   return (
     <div className="App">
       <header className="App-header">

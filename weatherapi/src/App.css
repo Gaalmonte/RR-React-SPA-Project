@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Merriweather&family=Roboto+Condensed&family=Roboto:wght@300&family=Titillium+Web&display=swap');
+*{
+  font-family: 'Lora', serif;
+}
 .App {
   display:flex;
   flex-direction: column;
@@ -10,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000b2e;
   min-height: 300px;
   display: flex;
   flex-direction: column;
