@@ -10,7 +10,7 @@ const Conditions = (props) => {
                     <p><strong>{props.responseObj.name}</strong></p>
                     <p>It is currently {Math.round(props.responseObj.main.temp)} degrees out with {props.responseObj.weather[0].description}.</p>
                 </div>
-            : null
+                : null
             }
         </div>
     )

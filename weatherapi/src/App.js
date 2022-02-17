@@ -1,20 +1,19 @@
+import React from 'react';
 import './App.css';
-import Forecast from './Components/Forecast/Forecast';
-import SideNav from './Components/Navbar/Navbar';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Components/Pages/Home';
+import Contact from './Components/Pages/Contact';
+import Navbar from './Components/Navbar/index';
 
-function App(props, state) {
+function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>React Weather Application</h1>
-      </header>
-        <main>
-          <Forecast />
-        </main>
-        <footer>
-          Made by German Almonte
-        </footer>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path='/' exact element={<Home />} />
+        <Route path='/Contact' element={<Contact />} />
+      </Routes>
+    </Router>
   );
 }
 

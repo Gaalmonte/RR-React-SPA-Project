@@ -1,0 +1,45 @@
+.App {
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: #000b2e;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  main {
+    flex-grow: 1;
+    text-align: center;
+    padding: 25px;
+  }
+  footer {
+    padding: 2px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #EEEEEE;
+    font-size: small;
+    text-align: center;
+  }
+  header {
+    padding: 25px;
+  }
+  

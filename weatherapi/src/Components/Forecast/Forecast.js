@@ -9,7 +9,7 @@ const Forecast = () => {
    let [unit, setUnit] = useState('imperial');
    let [error, setError] = useState(false);
    let [loading, setLoading] = useState(false);
-  
+
 
    function getForecast(e) {
     e.preventDefault();
@@ -28,7 +28,7 @@ const Forecast = () => {
             "x-rapidapi-key": "e3d4d0f9d3mshe4945d23ee91dd6p177e19jsn3d669d76305f"
         }
     })
-    
+
     .then(response => response.json())
     .then(response => {
         setResponseObj(response)
